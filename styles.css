@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin:0;
+}
+
+.head{
+    text-align: center;
+    color: brown;
+    background-color: aquamarine;
+    padding: 5px;
+}
+.button{
+    background-color: lightgreen;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.button:hover{
+    transform:scale(1.1);
+}
+#image{
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin:10px;
+    margin-top: 30px;
+}
+#image:hover{
+    transform:scale(1.1);
+}
